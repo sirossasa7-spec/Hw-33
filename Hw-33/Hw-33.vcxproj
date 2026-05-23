@@ -139,7 +139,19 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Animal.cpp" />
+    <ClCompile Include="Cage.cpp" />
+    <ClCompile Include="Fish.cpp" />
     <ClCompile Include="Hw-33.cpp" />
+    <ClCompile Include="Mammal.cpp" />
+    <ClCompile Include="ZooException.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animal.h" />
+    <ClInclude Include="Cage.h" />
+    <ClInclude Include="Fish.h" />
+    <ClInclude Include="Mammal.h" />
+    <ClInclude Include="ZooException.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
